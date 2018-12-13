@@ -1,0 +1,30 @@
+{
+  "npmScope": "alium",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "core": {
+      "tags": [
+        "core",
+        "api"
+      ]
+    },
+    "sample": {
+      "tags": []
+    },
+    "sample-e2e": {
+      "tags": []
+    },
+    "shell": {
+      "tags": []
+    },
+    "security": {
+      "tags": []
+    }
+  }
+}
